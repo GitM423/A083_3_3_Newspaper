@@ -41,7 +41,7 @@ p{
                          'shatter micro pic aside'
                          'knife fire pic aside'
                          'contact path pic aside';
-    grid-column-gap: 10px;
+    grid-column-gap: 15px;
 }
 
 #news{
@@ -129,35 +129,31 @@ nav{
     /* grid-column: 4/5;
     grid-row: 1/-1; */
     grid-area: aside;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; 
-    align-items: flex-end;
     text-align: center
 }
 
 #grid aside h3{
     font-size: 1.6em;
     align-self: center;
-    padding: 5px 0 5px 20px;
+    padding: 25px 0;
 }
 
 #grid aside div{
-    height: auto;
-    width: 89%;
+
     border: 8px double black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-
+    margin-bottom: 25px;
+    margin-left: 10px;
 }
 #grid aside h1{
     font-size: 4.2em;
 }
 #grid aside p{
-    padding: 0 25px;
+    padding: 0 30px;
 }
 #grid aside a{
     font-size: 1.7em;
@@ -169,4 +165,5 @@ nav{
 #grid aside img{
     width: 85%;
     height: 85%;
+    filter: grayscale(100%);
 }
